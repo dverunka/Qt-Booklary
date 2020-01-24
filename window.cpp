@@ -100,7 +100,7 @@ void Window::showBooks()
     }
     ui->bookListWidget->clear();
     foreach (Book* b, books) {
-        QListWidgetItem *item = new QListWidgetItem(QIcon(b->image()), b->title());
+        QListWidgetItem *item = new QListWidgetItem(QIcon(b->image()), b->listviewText());
         ui->bookListWidget->addItem(item);
     }
 }

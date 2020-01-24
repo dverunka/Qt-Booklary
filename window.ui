@@ -508,6 +508,12 @@
       <height>621</height>
      </rect>
     </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
     <property name="font">
      <font>
       <family>MS Shell Dlg 2</family>
@@ -520,11 +526,23 @@
     <property name="horizontalScrollBarPolicy">
      <enum>Qt::ScrollBarAlwaysOff</enum>
     </property>
+    <property name="showDropIndicator" stdset="0">
+     <bool>false</bool>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>75</width>
+      <height>100</height>
+     </size>
+    </property>
     <property name="spacing">
-     <number>4</number>
+     <number>8</number>
     </property>
     <property name="uniformItemSizes">
      <bool>true</bool>
+    </property>
+    <property name="sortingEnabled">
+     <bool>false</bool>
     </property>
    </widget>
   </widget>

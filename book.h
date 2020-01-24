@@ -39,6 +39,7 @@ public:
     void write(QJsonObject &json) const;
 
     QString fulltext();
+    QString listviewText();
 
 public slots:
 

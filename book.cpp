@@ -111,3 +111,12 @@ QString Book::fulltext()
     QString result = title() + " " + author() + " " + isbn() + "";
     return result.toLower();
 }
+
+QString Book::listviewText()
+{
+    QString result = "    " + title()
+            + "\n\n    author: " + author()
+            + "\n    published by: " + publisher() + " in " + QString::number(year())
+            + "\n    isbn: " + isbn();
+    return result;
+}

@@ -12,6 +12,7 @@ class Window : public QMainWindow
     Q_OBJECT
 
 public:
+
     Window(QWidget *parent = nullptr);
     ~Window();
 
@@ -23,13 +24,14 @@ public:
     void showBooks();
 
 private slots:
+
     void on_searchButton_clicked();
-
     void on_imageButton_clicked();
-
     void on_addButton_clicked();
 
 private:
+
     Ui::Window *ui;
+
 };
 #endif // WINDOW_H
