@@ -13,7 +13,6 @@ bool Library::loadFromJson()
 
     if (!loadFile.open(QIODevice::ReadOnly)) {
         qWarning("Couldn't load file.");
-        return false;
     }
 
     QByteArray saveData = loadFile.readAll();
