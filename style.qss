@@ -1,0 +1,13 @@
+QMainWindow {
+
+}
+QLabel {
+    color: #3F0D12;
+}
+QTextEdit {
+    border-color: #849483;
+    color: #A71D31;
+}
+QPushButton {
+    color: #3F0D12;
+}
